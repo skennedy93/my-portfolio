@@ -8,4 +8,4 @@ ID = "f245e11c-585e-470f-b14d-e374f2f3a575"
   # This is the directory that you are publishing from (relative to root of your repo)
   publish = "port/build/"
   # This will be your default build command
-  command = "echo 'default context
+  command = "echo 'default context'"
