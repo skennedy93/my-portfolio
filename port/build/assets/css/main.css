@@ -3845,14 +3845,6 @@ input, select, textarea {
 
 		}
 
-		@media screen and (max-width: 736px) {
-
-			#sidebar {
-				display: none;
-			}
-
-		}
-
 /* Intro */
 
 	#intro {
@@ -3889,4 +3881,30 @@ input, select, textarea {
 				background-attachment: scroll;
 			}
 
+		}
+		.about {
+			display: flex;
+			flex-direction: row;
+			margin-bottom: 2%;
+			
+		}
+		.intro{
+			width: 50%;
+		}
+		.profilePic {
+			border-radius: 38%;
+		}
+		@media (min-width: 320px) and (max-width: 480px) {
+			.about {
+				display: flex;
+				flex-direction: column;
+				margin-bottom: 2%;
+			}	
+			.intro{
+				width: 100%;
+			}
+		    .profilePic {
+			border-radius: 38%;
+			margin-left: 5%
+		    }
 		}
