@@ -3892,7 +3892,7 @@ input, select, textarea {
 			width: 50%;
 		}
 		.profilePic {
-			border-radius: 38%;
+			border-radius: 50%;
 		}
 		@media (min-width: 320px) and (max-width: 480px) {
 			.about {
